@@ -36,17 +36,24 @@ not been allocated to guests on the day of departure.
 
 
 Merlion Hotel adopts a four-tier pricing strategy for its room rates:
-• Published Rate – This is the base rate per night for a room type that is offered to all
-walk-in reservations regardless of the check-in date.
+
+• Published Rate – This is the base rate per night for a room type that is 
+offered to all walk-in reservations regardless of the check-in date.
+
 • Normal Rate – This is the normal rate per night for a room type that is offered to
 online reservation via HoRS, including external partners. This is the default rate per
 night for any room type offered to all online reservations (own and partner).
+
+
 • Peak Rate – This is the peak rate per night for a room type that is offered to all online
 reservations (own and partner) via HoRS, including external partners, during
 predefined peak seasons.
+
 • Promotion Rate – This is the discounted rate per night for a room type that is offered
 to all online reservations (own and partner) via HoRS, including to external partners,
 during predefined promotional periods.
+
+
 The total reservation fee payable by the guest for a reservation is calculated by summing the
 prevailing rate per night of each night of stay for the entire duration of stay. For example, if a
 guest books a Deluxe Room for 3 nights, the reservation fee will be the sum of first day’s rate
