@@ -4,8 +4,8 @@ Premier Room, Family Room, Junior Suite and Grand Suite. From time to time, the 
 may change its room configurations to cater to changing needs of guests. The hotel has
 various amenities to cater to the needs of guests, but these would be managed with a different
 information system.
-IS2103 – Enterprise Systems Server-side Design and Development
-Tan Wee Kek, tanwk@comp.nus.edu.sg 2
+
+
 The new system mainly manages the various room types as well as the room inventory. Each
 room is numbered using a combination of a two-digit floor number and a two-digit sequence
 number for that floor, e.g., Room 2015 would refer to the fifteenth room on floor twenty.
@@ -16,6 +16,8 @@ room in the middle of their stay. Thus, the system needs to ensure that there is
 room inventory to fulfil a new reservation before accepting it. In the event of overbooking for
 a particular room type, the guests can be upgraded to the next higher available room type at
 no additional cost.
+
+
 In other words, when a new reservation request is received, the system does not need to
 allocate a hotel room before confirming the reservation. The system only needs to ensure that
 the hotel has sufficient room inventory to fulfil the new reservation. Allocation of hotel
@@ -23,11 +25,16 @@ rooms to guest reservations is done as a daily batch job at 2 am in the morning.
 encounters any errors during the room allocation process, an exception report would be
 generated. The duty manager will need to check the exception report in the morning to
 resolve the errors.
+
+
 The standard check-out time is 12 noon on the day of departure and the standard check-in
 time is 2 pm on the day of arrival. The housekeeping department will typically perform
 cleaning between 12 noon to 2 pm. Early check-in is possible only if the room that is
 allocated to the guests is ready before 2 pm. Late check-out is possible only if the room has
 not been allocated to guests on the day of departure.
+
+
+
 Merlion Hotel adopts a four-tier pricing strategy for its room rates:
 • Published Rate – This is the base rate per night for a room type that is offered to all
 walk-in reservations regardless of the check-in date.
